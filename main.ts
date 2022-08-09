@@ -1,5 +1,5 @@
 //% color="#8FBC8F" weight=21 icon="\uf001"
-namespace music {
+namespace songs {
 
     export enum enMusic {
         Gurenge = 1,
@@ -7,7 +7,7 @@ namespace music {
 
 
 
-    //% blockId=music block="Music|%index"
+    //% blockId=songs block="Songs|%index"
 
     export function Music(index: enMusic): void {
         switch (index) {
